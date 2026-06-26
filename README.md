@@ -25,9 +25,15 @@ Cursor מציג טקסט עברי בצ'אט בכיוון שגוי: שורות ש
 פתח PowerShell כ‑Administrator והדבק:
 
 ```powershell
-irm https://raw.githubusercontent.com/<USERNAME>/cursor-rtl-patch/main/cursor-rtl-patch.ps1 | iex
+irm https://raw.githubusercontent.com/oriIsrael856/cursor-rtl-patch/main/cursor-rtl-patch.ps1 | iex
 ```
 
+### או התקנה ידנית
+
+1. הורד את `cursor-rtl-patch.ps1`.
+2. פתח PowerShell כ‑Administrator בתיקייה שבה הקובץ.
+3. הרץ: `.\cursor-rtl-patch.ps1`
+4. בחר 1 (Install) והפעל מחדש את Cursor.
 ## הסרה
 
 הרץ את הסקריפט שוב ובחר **2** (Restore). הוא משחזר מהגיבוי `workbench.desktop.main.js.rtl.bak`.
