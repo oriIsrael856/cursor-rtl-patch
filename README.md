@@ -25,7 +25,7 @@ Cursor מציג טקסט עברי בצ'אט בכיוון שגוי: שורות ש
 פתח PowerShell כ‑Administrator והדבק:
 
 ```powershell
-irm https://raw.githubusercontent.com/oriIsrael856/cursor-rtl-patch/main/cursor-rtl-patch.ps1 | iex
+irm https://raw.githubusercontent.com/oriIsrael856/cursor-rtl-patch/refs/heads/main/cursor-rtl-patch.ps1 | iex
 ```
 
 ### או התקנה ידנית
